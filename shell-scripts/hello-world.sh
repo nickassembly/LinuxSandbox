@@ -1,9 +1,8 @@
 #!/bin/bash
 
-echo "My favorite movie is \"Limitless"\" > ./file.txt
+<<LINUX_HINT 
+this is a multiline comment
+#this is a single line comment
+LINUX_HINT
 
-#this is a comment
-
-echo "This is a new line appended" >> ./file.txt+
-
-echo "My favorite car is Keller" >> ./file.txt
+echo "Hello Keller" > file.txt
